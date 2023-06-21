@@ -1,8 +1,8 @@
 version: '3.8'
 services:
   ashu-ui-app:
-    image: ashu-web:app$BUILD_NUMBER
+    image: navi-web:v$BUILD_NUMBER
     build: .
-    container_name: ashuc1
+    container_name: navic1
     ports:
     - 1234:80
